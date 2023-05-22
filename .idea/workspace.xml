@@ -5,43 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c572aab-8297-4766-bbdb-2e5851859218" name="Changes" comment="javac,javadoc added">
-      <change afterPath="$PROJECT_DIR$/src/main/docs/allclasses-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/allpackages-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/element-list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/help-doc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/index-all.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/jquery-ui.overrides.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/legal/ADDITIONAL_LICENSE_INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/legal/ASSEMBLY_EXCEPTION" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/legal/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/legal/jquery.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/legal/jqueryUI.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/member-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/module-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/overview-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/overview-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/package-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/resources/glass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/resources/x.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/ru/gb/hw1/regular/Decorator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/ru/gb/hw1/regular/OtherClass.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/ru/gb/hw1/regular/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/ru/gb/hw1/regular/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/ru/gb/hw1/sample/Main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/ru/gb/hw1/sample/package-summary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/ru/gb/hw1/sample/package-tree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/script-dir/jquery-3.6.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/script-dir/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/script-dir/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/search.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/stylesheet.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/tag-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/docs/type-search-index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/out/ru/gb/hw1/regular/Decorator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/out/ru/gb/hw1/regular/OtherClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/out/ru/gb/hw1/sample/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/bin/ru/gb/hw1/regular/Decorator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/bin/ru/gb/hw1/regular/OtherClass.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/bin/ru/gb/hw1/sample/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/gb/hw1/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/gb/hw1/sample/Main.java" afterDir="false" />
     </list>
@@ -81,25 +48,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "configurable.group.tools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.tools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -111,7 +78,9 @@
       <workItem from="1684602422816" duration="746000" />
       <workItem from="1684603180372" duration="1208000" />
       <workItem from="1684604402641" duration="3723000" />
-      <workItem from="1684686355376" duration="1307000" />
+      <workItem from="1684686355376" duration="1608000" />
+      <workItem from="1684776226214" duration="286000" />
+      <workItem from="1684778062608" duration="4122000" />
     </task>
     <task id="LOCAL-00001" summary="hw1 added">
       <created>1684604991800</created>
@@ -134,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684687667757</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="javac,javadoc added">
+      <created>1684687705530</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684687705530</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

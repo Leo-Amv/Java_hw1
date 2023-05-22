@@ -11,6 +11,28 @@ public class Main {
      * java -classpath ./out ru.gb.hw1.sample.Main
      * <p>
      * javadoc -encoding utf8 -d docs -sourcepath ./java -cp ./out -subpackages ru
+     * <p>
+     * <p>
+     * FROM bellsoft/liberica-openjdk-alpine:11.0.16
+     * COPY ./java ./src
+     * RUN mkdir ./out
+     * RUN javac -sourcepath ./src -d out src/ru/gb/hw1/sample/Main.java
+     * CMD java -classpath ./out ru.gb.hw1.sample.Main
+     * <p>
+     * docker build . -t myapp:latest
+     * docker run myapp:latest
+     * <p>
+     * <p>
+     * FROM bellsoft/liberica-openjdk-alpine:11.0.16 as BuildProject
+     * WORKDIR /app
+     * COPY ./java ./src
+     * RUN mkdir ./out
+     * RUN javac -sourcepath ./src -d out src/ru/gb/hw1/sample/Main.java     *
+     * FROM scratch as OutputFiles
+     * COPY --from=BuildProject /app/out /bin
+     * <p>
+     * <p>
+     * docker buildx build --output type=local,dest=. .
      */
     public static void main(String[] args) {
         int result = OtherClass.add(23, 45);
